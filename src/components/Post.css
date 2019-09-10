@@ -1,0 +1,52 @@
+.avatar {
+    border-radius: 50%;
+    width:45px;
+    align-self: flex-start;
+}
+
+.post {
+    background-color: white;
+    margin: 20px;
+    padding: 30px;
+    box-shadow: 1px 1px 10px #bbb;
+}
+
+.post > .header {
+    display: flex;
+}
+
+.post > .header > .detail {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.post > .header > .detail > span:nth-child(1) {
+    font-weight: bold;
+}
+
+.post > .header > .detail > span:nth-child(2) {
+    color: #aaa;
+    font-size: 0.9em;
+}
+
+.content {
+    margin: 25px 10px 60px 10px;
+}
+
+/* Comment */
+.comment {
+    display: flex;
+}
+
+.comment > p {
+    background-color: #eee;
+    border-radius: 30px;
+    padding: 20px;
+    align-self: center;
+}
+
+.comment > p > span{
+    font-weight: bold;
+    margin-right: 5px;
+}
